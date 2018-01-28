@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Campaign Finance</title>
+        <!--<base href="https://www.mywebsite.com">--><base href=".">
+        <link rel="stylesheet" type="text/css" href="./main.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Campaign Finance Data</h1>
+        </div>
+        <hr>
+        <div class="content">
+            <table class="layout-table">
+                <tr style="height:50px">
+                    <td rowspan="2" class="links">
+                        Data Library
+                        <ul>
+                            <li><a href="./data/2017_Contributions.csv">2017 Contributions</a></li>
+                            <li><a href="./data/2017_Expenditures.csv">2017 Expenditures</a></li>
+                            <li><a href="./data/2017_Intermediaries.csv">2017 Intermediaries</a></li>
+                            <li><a href="./data/2017_payment.csv">2017 Payments</a></li>
+                        </ul>
+                    </td>
+                    <td class="input-cell">Enter name: <input id="recipName" class="form-input form-input-recipname" placeholder="you@example.com" size="30"></td>
+                    <td class="input-cell">Enter year: <input id="year" class="form-input form-input-year"></td>
+                    <td class="input-cell">Min. Amount: <input id="min-amnt" class="form-input form-input-min-amnt"></td>
+                    <td class="input-cell">Max. Amount: <input id="max-amnt" class="form-input form-input-max-amnt"></td>
+                </tr>
+                <tr style="height:400px">
+                    <td colspan="4" class="data-cell">
+                        This is the data cell too
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
